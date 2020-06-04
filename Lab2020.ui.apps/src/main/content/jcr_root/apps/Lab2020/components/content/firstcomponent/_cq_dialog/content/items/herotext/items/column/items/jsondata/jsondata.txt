@@ -1,0 +1,14 @@
+[  
+   {  
+      "text":"foo",
+      "value":1
+   },
+   {  
+      "text":"bar",
+      "value":2
+   },
+   {  
+      "text":"baz",
+      "value":3
+   }
+]

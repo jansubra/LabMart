@@ -1,0 +1,34 @@
+<!--/*Click here to configure COOL Multi Field User Menu
+<div data-sly-use.multiItems="com.aem.community.core.models.TouchMultiComponent">
+<div data-sly-list.head="${multiItems.multiFieldItems}">
+<p><b>NameMF:</b> ${head.product}</p>
+<p><b>PathMF:</b> ${head.path}</p>
+<p><b>DateMF:</b> ${head.date}</p>
+<p><b>SizeMF:</b> ${head.size}</p>
+<p><b>CHeckboxMF:</b> ${head.show}</p>
+</div>
+</div>*/-->
+
+Click here to configure COOL Multi Field User Menu
+<div
+    data-sly-use.multiItems="com.aem.community.core.models.Multifield">
+    <div data-sly-list.head="${multiItems.products.listChildren}">
+        <p>
+            <b>Name MF S:</b> ${head.productmf}
+        </p>
+        <p>
+            <b>Path MF S:</b> ${head.pathmf}
+        </p>
+        <p>
+            <b>Date MF S:</b> 
+                  ${'yyyy-MM-dd HH:mm:ss.SSSXXX' @ format=head.startDatemf, timezone='UTC'}
+ 
+        </p>
+        <p>
+            <b>Size MF S:</b> ${head.sizemf}
+        </p>
+        <p>
+            <b>CHeckbox MF S:</b> ${head.showmf}
+        </p>
+    </div>
+</div>

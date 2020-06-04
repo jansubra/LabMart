@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/Lab2020"/>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/Lab2020"/>
+</workspaceFilter>
