@@ -68,7 +68,7 @@ public class HeroSlingModel {
                heroTextBean.setShow(show);
         heroTextBean.setType(size);
         heroTextBean.setFruits(fruit);
-        heroTextBean.setFruits(colour);
+        heroTextBean.setColours(colour);
         heroTextBean.setDrop(dd);
         
       

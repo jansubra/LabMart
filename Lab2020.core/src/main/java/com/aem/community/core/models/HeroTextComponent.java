@@ -22,6 +22,7 @@ extends WCMUsePojo
         String show = getProperties().get("show","");
         String type = getProperties().get("size","");
         String fruits = getProperties().get("fruit","");
+        String colours = getProperties().get("colour","");
         String drop = getProperties().get("dd","");
        
       
@@ -33,6 +34,7 @@ extends WCMUsePojo
         heroTextBean.setShow(show);
         heroTextBean.setType(type);
         heroTextBean.setFruits(fruits);
+        heroTextBean.setColours(colours);
         heroTextBean.setDrop(drop);
               }
         
