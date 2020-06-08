@@ -15,23 +15,23 @@ public class HeroTextBean {
     /** Stores Checkbox information */
     private String show ;         
     /** Stores Select  information */
-    private String type;    
+    private String con;    
     /** Stores Select  information */
-    private String fruits;
+    private String fru;
     /** Stores Colour  information */
-    private String colour;
+    private String col;
     /** Stores Select  information */
     private String drop;
     
-    public String getType() {
-    	return this.type;
+    public String getCont() {
+    	return this.con;
     }
 
     /**
      * @param path the path to set
      */
-    public void setType(String type) {
-        this.type = type;
+    public void setCont(String cont) {
+        this.con = cont;
     }
              
     public String getShow() {
@@ -90,23 +90,23 @@ public class HeroTextBean {
     }
                  
     public String getFruits() {
-        return this.fruits;
+        return this.fru;
     }
     /**
      * @param path the path to set
      */
-    public void setFruits(String fruits) {
-        this.fruits = fruits;
+    public void setFruits(String fruit) {
+        this.fru = fruit;
     }
     
     public String getColour() {
-        return this.colour;
+        return this.col;
     }
     /**
      * @param path the path to set
      */
     public void setColours(String colour) {
-        this.colour = colour;
+        this.col = colour;
     }
     
     public String getDrop() {

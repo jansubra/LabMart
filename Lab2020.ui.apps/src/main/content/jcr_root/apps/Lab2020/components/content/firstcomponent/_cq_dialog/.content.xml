@@ -55,30 +55,33 @@
                                 name="./show"
                                 text="Show?"
                                 value="yes "/>
-                            <type
+                            <Countries
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/autocomplete"
                                 fieldDescription="Contries"
                                 fieldLabel="Country"
-                                name="./size">
+                                name="./cont">
                                 <datasource
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="/apps/Lab2018/components/datasource/mylist/mylist.html"/>
                                 <options
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="granite/ui/components/coral/foundation/form/autocomplete/list"/>
-                            </type>
-                            <type2
+                            </Countries>
+                            <Fruits
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
-                                fieldDescription="Select Fruit"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/autocomplete"
+                                fieldDescription="Fruits"
                                 fieldLabel="Fruit"
                                 name="./fruit">
                                 <datasource
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="/apps/Lab2018/components/datasource/mylist/myfruit.html"/>
-                            </type2>
-                            <type3
+                                <options
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/autocomplete/list"/>
+                            </Fruits>
+                            <Colours
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/select"
                                 fieldDescription="Colours"
@@ -98,7 +101,7 @@
                                         text="blue"
                                         value="blue"/>
                                 </items>
-                            </type3>
+                            </Colours>
                             <dynamicdd
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/coral/foundation/form/select"

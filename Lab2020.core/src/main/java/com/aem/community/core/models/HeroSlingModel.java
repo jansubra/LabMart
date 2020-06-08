@@ -34,7 +34,7 @@ public class HeroSlingModel {
     public String show;
      
     @Inject @Optional
-    public String size;
+    public String cont;
     
     @Inject @Optional
     public String fruit;
@@ -55,7 +55,7 @@ public class HeroSlingModel {
          
         heroTextBean = new HeroTextBean();
          
-        //Set the Bean with all the dialgo values
+        //Set the Bean with all the dialog values
         heroTextBean.setHeadingText(heading);
         heroTextBean.setDescription(description); 
         heroTextBean.setPath(path); 
@@ -66,7 +66,7 @@ public class HeroSlingModel {
             heroTextBean.setShow("off");
         else
                heroTextBean.setShow(show);
-        heroTextBean.setType(size);
+        heroTextBean.setCont(cont);
         heroTextBean.setFruits(fruit);
         heroTextBean.setColours(colour);
         heroTextBean.setDrop(dd);
